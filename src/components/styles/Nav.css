@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.navigation{
+    height: 100vh;
+    width: 5vw;
+    display: flex;
+    background: #000;
+    padding: 0 40px 0 0;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    outline: 3px #08ff08 solid;
+}
+
+.navigation ul{
+    list-style: none;
+    font-size: 1.7em;
+}
+
+.navigation ul li{
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+.mob-navigation{
+    display: none;
+}
+
+.inactive{
+    opacity: 0;
+}
+
+
+@media (max-width: 1200px) {
+    .navigation{
+        width: 8vw;
+    }
+}
+@media (max-width: 900px) {
+    .navigation{
+        display: none;
+    }
+
+    .mob-navigation{
+        display: flex;
+        z-index: 9;
+        width: 100vh;
+    }
+
+    .mob-navigation h1{
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        padding: 20px 0 0 20px;
+        z-index: 3;
+    }
+
+    .mob-navigation button{
+        position: absolute;
+        left: 90%;
+        top: 1%;
+        padding: 20px;
+        z-index: 12;
+    }
+    
+    
+    .mob-navigation .text{
+        display: flex;
+        position: absolute;
+        width: 100vw;
+        flex-direction: column;    
+        height: 100vh;
+        list-style: none;
+        background: #000;
+        font-size: 1.2em;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        z-index: 2;
+    }
+    .mob-navigation .text a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        margin: 0 0 50px -20px;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .mob-navigation button{
+        left: 86%;
+    }
+
+}
+@media (max-width: 448px) {
+    .mob-navigation button{
+        left: 82%;
+    }
+
+}

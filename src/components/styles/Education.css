@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.edu{
+    display: flex;
+    padding: 20px 0 0 30px;
+}
+
+.main{
+    margin: 16% 0 0 0;
+}
+
+.education{
+    display: flex;
+    border-bottom: 2px solid #000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.institute1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.institute2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 1157px){
+    .edu{
+        display: flex;
+        padding: 20px 0 0 2%;
+    }
+    .main{
+        margin: 20% 0 0 5%;
+    }
+    .institute1{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .institute2{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width: 880px){
+    .main{
+        margin: 20% 0 0 0;
+    }
+}
+
+@media (max-width: 780px){
+    .main{
+        margin: 20% 0 0 -6%;
+    }
+    .edu{
+        margin: 20px 0 0 -7%;
+    }
+}
+
+@media (max-width: 680px){
+    .edu{
+        margin: 20px 0 0 -7%;
+    }
+    .main{
+        margin: 20% 0 0 0;
+    }
+}
+
+@media (max-width: 580px){
+    .edu{
+        margin: 20px 0 0 -1%;
+    }
+    .main{
+        margin: 20% 0 0 0;
+    }
+
+    .institute1{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 0 5%;
+    }
+    .institute2{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 0 10%;
+    }
+}
+
+@media (max-width: 480px){
+    .edu{
+        margin: 5% 0 0 -1%;
+    }
+    .main{
+        margin: 40% 0 0 0;
+    }
+
+}

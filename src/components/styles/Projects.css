@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+#container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containe{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containe .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+.containe .box::before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .2);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.containe .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1000ms;
+}
+
+.containe .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #00CCCC;
+    background: #00CCCC;
+}
+
+.containe .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #00CCCC;
+}
+
+.containe .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #50BFE6;
+    background: #50BFE6;
+}
+
+.containe .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px #50BFE6;
+}
+
+.containe .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #66FF66;
+    background: #66FF66;
+}
+
+.containe .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #66FF66;
+}
+
+.containe .box .content{
+    position: relative;
+    z-index: 1;
+    transition: 500ms;
+}
+
+.containe .box:hover .content{
+    color: #fff;
+}
+
+.containe .box .content p{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-family: 'Saira', sans-serif;
+}
+
+.containe .box .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border: 4px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 776px){
+
+    #container{
+        margin-top: 50%;
+    }
+    .containe{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}

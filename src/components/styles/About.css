@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.about{
+    height: 100vh;
+    width: 70%;
+    padding-top: 20%;
+}
+
+.about .main-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+
+.about .main-about h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+}
+.about .main-about p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1em;
+}
+.about .main-about h2,p{
+    padding: 10px;
+    text-align: center;
+
+}
+
+@keyframes rotate{
+    25%{
+        transform: rotate(90deg) scale(.25);;
+    }
+    50%{
+        transform: (180deg) scale(.5);
+    }
+    75%{
+        transform: rotate(270deg) scale(.75);
+    }
+    100%{
+        transform: (360deg);
+    }
+}
