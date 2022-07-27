@@ -25,5 +25,14 @@ export const Work = [
         "para": "A WebApp to Return Cardamom Price of Last 4 days.",
         "demoT": true,
         "demo": "https://cardamom-price-tracker.vercel.app/"
+    },
+    {
+        "id": 4,
+        "name": "3D MBC",
+        "framework": "React",
+        "code": "https://github.com/10cyrilc/cardamom-price-tracker",
+        "para": "Website to ShowCase 360 and 3D Models of our College.",
+        "demoT": true,
+        "demo": "https://3d-mbc.tk"
     }
 ]

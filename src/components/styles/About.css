@@ -20,6 +20,7 @@
 .about .main-about h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 2em;
+    margin-bottom: -10px;
 }
 .about .main-about p{
     font-family: 'Mulish', sans-serif;

@@ -81,6 +81,15 @@
     box-shadow: 0 0 0 400px #66FF66;
 }
 
+.containe .box:nth-child(4) .icon{
+    box-shadow: 0 0 0 0 #FF6EFF;
+    background: #FF6EFF;
+}
+
+.containe .box:nth-child(4):hover .icon{
+    box-shadow: 0 0 0 400px #FF6EFF;
+}
+
 .containe .box .content{
     position: relative;
     z-index: 1;
@@ -111,12 +120,32 @@
 @media (max-width: 776px){
 
     #container{
-        margin-top: 50%;
+        margin-top: 60%;
     }
     .containe{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+}
+
+@media (max-width: 652px){
+    #container{
+        margin-top: 65%;
+    }
+
+}
+@media (max-width: 552px){
+    #container{
+        margin-top: 80%;
+    }
+
+}
+
+@media (max-width: 462px){
+    #container{
+        margin-top: 90%;
     }
 
 }
