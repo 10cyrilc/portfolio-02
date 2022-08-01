@@ -30,7 +30,7 @@ export const Work = [
         "id": 4,
         "name": "3D MBC",
         "framework": "React",
-        "code": "https://github.com/10cyrilc/cardamom-price-tracker",
+        "code": "",
         "para": "Website to ShowCase 360 and 3D Models of our College.",
         "demoT": true,
         "demo": "https://3d-mbc.tk"

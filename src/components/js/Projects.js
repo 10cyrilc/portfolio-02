@@ -25,7 +25,7 @@ function Projects() {
 
 function Cards(props) {
     return (
-        <Col className="box" data-aos="zoom-in">
+        <Col className="box" data-aos="flip-up">
             <div className="icon">{props.id}</div>
             <div className="content">
                 <h3>{props.name}</h3>

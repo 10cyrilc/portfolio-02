@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaHome, FaUserAlt, FaGraduationCap, FaRegFileCode, FaRegFolderOpen, FaMailBulk, FaTimes, FaBars } from "react-icons/fa";
+// import { BsGear } from "react-icons/bs";
 import '../styles/Nav.css'
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nav() {
     const [show, setShow] = useState(false)
-
 
     return (
         <>
             <div className="navigation">
                 <ul>
+
                     <Icons link="/home" icon={<FaHome />} />
                     <Icons link="/about" icon={<FaUserAlt />} />
                     <Icons link="/education" icon={<FaGraduationCap />} />
@@ -28,8 +28,8 @@ function Nav() {
                 </h1>
                 <Button variant="outline-info" onClick={() => setShow(!show)}>{show ? <FaTimes /> : <FaBars />}</Button>
                 {show ? (
-                    <ul className={!show?"inactive text":"active text"} data-aos="slide-down" data-aos-duration="700">
-                        <Text link="/home" text="Home" handle={() => setShow(!show)}/>
+                    <ul className={!show ? "inactive text" : "active text"} data-aos="slide-down" data-aos-duration="700">
+                        <Text link="/home" text="Home" handle={() => setShow(!show)} />
                         <Text link="/about" text="About" handle={() => setShow(!show)} />
                         <Text link="/education" text="Education" handle={() => setShow(!show)} />
                         <Text link="/frameworks" text="Codes" handle={() => setShow(!show)} />

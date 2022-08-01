@@ -18,7 +18,7 @@ function Education() {
                 <div className="main">
 
                     {Edu.map((item) => (
-                        <Row className="education">
+                        <Row className="education" data-aos="fade-up">
                             <Col className="institute1">
                                 <h5 data-aos="fade-right">{item.course} - {item.year}</h5>
                             </Col>

@@ -21,7 +21,7 @@ function Frameworks() {
 
 function Card(props) {
     return (
-        <Col className='column-content' data-aos="zoom-in-up">
+        <Col className='column-content' data-aos="flip-left">
         <div className='card'>
             <div className='face face1'>
                 <div className='content'>

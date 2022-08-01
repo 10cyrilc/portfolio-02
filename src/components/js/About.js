@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About(){
     return(
         <Container className="about">
-            <Row className="main-about" data-aos="zoom-in" data-aos-duration="1000">
+            <Row className="main-about" data-aos="zoom-in" data-aos-duration="2000">
                 <Col sm>
                     <h2>About Me</h2>
                     <p> I am a Computer Science Engineering Student.
