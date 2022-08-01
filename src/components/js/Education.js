@@ -10,11 +10,6 @@ function Education() {
     return (
         <Container>
             <Row>
-                <Col sm>
-                    <h1 className="edu">
-                        Education
-                    </h1>
-                </Col>
                 <div className="main">
 
                     {Edu.map((item) => (
