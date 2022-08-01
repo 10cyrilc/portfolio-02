@@ -59,7 +59,7 @@ function Contact() {
                             label="Message:"
                             className="mb-3"
                         >
-                            <Form.Control as="textarea" label="Message" style={{ height: '150px' }} name="Message" placeholder="Message:" required />
+                            <Form.Control as="textarea" label="Message" style={{ height: '150px' }} name="message" placeholder="Message:" required />
                         </FloatingLabel>
                         <div className='btn-sub'>
                             <Button variant="outline-dark" type='send' value="Send">Send</Button>
