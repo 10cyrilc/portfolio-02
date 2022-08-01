@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaHome, FaUserAlt, FaGraduationCap, FaRegFileCode, FaRegFolderOpen, FaMailBulk, FaTimes, FaBars } from "react-icons/fa";
-// import { BsGear } from "react-icons/bs";
 import '../styles/Nav.css'
 import Button from 'react-bootstrap/Button';
+import Logo from "../images/logo.png"
 
 function Nav() {
     const [show, setShow] = useState(false)
@@ -11,8 +11,10 @@ function Nav() {
     return (
         <>
             <div className="navigation">
+                <div className="logo-img">
+                    <img src={Logo} alt="logo" />
+                </div>
                 <ul>
-
                     <Icons link="/home" icon={<FaHome />} />
                     <Icons link="/about" icon={<FaUserAlt />} />
                     <Icons link="/education" icon={<FaGraduationCap />} />

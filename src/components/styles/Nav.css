@@ -5,7 +5,7 @@
     width: 5vw;
     display: flex;
     background: #000;
-    padding: 0 40px 0 0;
+    padding: 0 40px 0 0;;
     align-items: center;
     position: fixed;
     z-index: 2;
@@ -19,7 +19,7 @@
 
 .navigation ul li{
     color: #fff;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px -65px;
 }
 
 .mob-navigation{
@@ -28,6 +28,18 @@
 
 .inactive{
     opacity: 0;
+}
+
+.logo-img{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 35px 0 0 15px;
+}
+
+.logo-img img{
+    width: 50px;
 }
 
 
