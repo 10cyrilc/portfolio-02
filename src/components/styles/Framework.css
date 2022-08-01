@@ -4,22 +4,22 @@
 #container{
     display: flex;
     width: 100vw;
+    height: 100vh;
     justify-content: space-evenly;
 }
 
 .contai{
     width:fit-content;
-    height: 100vh;
     position: relative;
     display: flex;
-    margin: 20%;
+    padding-top: 16%;
 }
 
 .column-content{
     display: flex;
     width: fit-content;
     height: fit-content;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -95,11 +95,4 @@
     padding: 0;
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
-}
-
-@media (max-width: 776px){
-    .contai{
-        margin-top: -100%;
-    }
-
 }
