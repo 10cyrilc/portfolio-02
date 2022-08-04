@@ -8,7 +8,7 @@ import { Frame } from "../data/Framework.js"
 
 function Frameworks() {
     return (
-        <Container id="container">
+        <Container id="contani">
             <Row className='contai'>   
                 {Frame.map((item) =>(
                     <Card imag={item.imag} name={item.name} para={item.para} />

@@ -25,7 +25,7 @@ function Nav() {
             </div>
 
             <div className="mob-navigation">
-                <h1 data-aos="zoom-in">
+                <h1 data-aos="zoom-in" className={show? "white-text":"black-text"}>
                     Cyril C Thomas
                 </h1>
                 <Button variant="outline-info" onClick={() => setShow(!show)}>{show ? <FaTimes /> : <FaBars />}</Button>
@@ -35,7 +35,7 @@ function Nav() {
                         <Text link="/about" text="About" handle={() => setShow(!show)} />
                         <Text link="/education" text="Education" handle={() => setShow(!show)} />
                         <Text link="/frameworks" text="Codes" handle={() => setShow(!show)} />
-                        <Text link="/projects" text="Works" handle={() => setShow(!show)} />
+                        <Text link="/projects" text="Projects & Services" handle={() => setShow(!show)} />
                         <Text link="/contact" text="Contact" handle={() => setShow(!show)} />
                     </ul>
                 ) : null}
