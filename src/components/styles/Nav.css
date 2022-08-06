@@ -43,12 +43,18 @@
 }
 
 
+@media (max-width: 1370px) {
+    .navigation{
+        width: 6vw;
+    }
+}
 @media (max-width: 1200px) {
     .navigation{
         width: 8vw;
     }
 }
 @media (max-width: 900px) {
+
     .navigation{
         display: none;
     }
@@ -56,7 +62,7 @@
     .mob-navigation{
         display: flex;
         z-index: 9;
-        width: 100vh;
+        width: 95vw;
     }
 
     .mob-navigation .black-text{
@@ -86,20 +92,21 @@
         position: absolute;
         width: 100vw;
         flex-direction: column;    
-        height: 100vh;
+        height: 110vh;
         list-style: none;
         background: #000;
         font-size: 1.2em;
         justify-content: center;
         align-items: center;
         margin-left: 0;
+        margin-top: -50px;
         z-index: 2;
     }
     .mob-navigation .text a{
         color: #fff;
         text-decoration: none;
         font-weight: 600;
-        margin: 0 0 50px -20px;
+        margin: 0 0 50px 20px;
     }
     
 }

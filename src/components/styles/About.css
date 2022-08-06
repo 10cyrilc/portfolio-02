@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 .about{
-    height: 100vh;
-    width: 70%;
-    padding-top: 20%;
+    height: 60vh;
+    width: 80%;
+    margin-top: 15%;
 }
 
 .about .main-about{
@@ -30,6 +30,12 @@
     padding: 10px;
     text-align: center;
 
+}
+
+@media(max-width: 500px){
+    .about{
+        margin-top: 30%;
+    }
 }
 
 @keyframes rotate{

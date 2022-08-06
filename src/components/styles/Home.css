@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-.home{
+.heading {
+    display: block;
+    text-align: left;
+    margin-left: 6%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.home {
     width: 100vw;
     height: 100vh;
 }
 
-.image{
+.image {
     display: flex;
     padding-top: 30%;
     padding-left: 5%;
 }
 
-.text{
+.text {
     display: flex;
     padding: 20% 0 0 0;
     margin-left: 5%;
 }
 
-.name{
+.name {
     margin: -5px 100px 0 0;
     font-family: 'Maven Pro', sans-serif;
     font-size: 4em;
@@ -25,31 +35,32 @@
 }
 
 
-.dev{
+.dev {
     margin: 10px 120px 20px 0;
 }
 
-.image img{
+.image img {
     border-radius: 10%;
 
     margin-right: 100px;
     z-index: 1;
 }
 
-.social{
+.social {
     text-align: center;
 }
-.social a{
+
+.social a {
     font-size: 1.8em;
     color: #fa2538;
     transition: 500ms color;
 }
 
-.social a:hover{
+.social a:hover {
     color: #fa2537;
 }
 
-.black-rect{
+.black-rect {
     position: absolute;
     width: 35%;
     height: 92%;
@@ -63,39 +74,56 @@
 }
 
 
-@media(max-width: 986px){
-    .black-rect{
+@media(max-width: 1200px) {
+    .heading{
+        margin-left: 10%;
+    }
+}
+@media(max-width: 986px) {
+    
+    .black-rect {
         height: 96%;
     }
-    .name, .dev{
+
+    .name, .dev {
         margin-left: 20%
     }
-    .social{
+
+    .social {
         margin-left: 20%;
     }
 }
-@media(max-width: 900px){
-    .black-rect{
+
+@media(max-width: 900px) {
+
+    .heading {
         display: none;
     }
-    .dev{
+
+    .black-rect {
+        display: none;
+    }
+
+    .dev {
         margin: 2px 0 0 0;
         padding: 20px 0 20px 10px;
     }
 
-    .image img{
+    .image img {
         margin-left: -10px;
     }
-    .image img{
+
+    .image img {
         box-shadow: none;
     }
 }
 
-@media(max-width: 800px){
-    .home{
+@media(max-width: 800px) {
+    .home {
         margin-top: -20%;
     }
-    .name{
+
+    .name {
         margin-left: -10px;
     }
 }

@@ -4,15 +4,17 @@
 #contani{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     justify-content: space-evenly;
 }
 
 .contai{
     width:fit-content;
     position: relative;
+    height: 60vh;
     display: flex;
-    padding-top: 16%;
+    margin-top: 9%;
+    justify-items: space-around;
 }
 
 .column-content{

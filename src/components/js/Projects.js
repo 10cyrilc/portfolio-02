@@ -9,14 +9,16 @@ import { Work } from "../data/Projects.js"
 
 function Projects() {
     return (
-
-        <Container id="container">
-            <Row className='containe'>
-                {Work.map((item) => (
-                    <Cards id={item.id} name={item.name} para={item.para} codeT={item.codeT} code={item.code} demo={item.demo} demoT={item.demoT} />
-                ))}
-            </Row>
-        </Container>
+        <>
+            <p className='heading'>Projects Done</p>
+            <Container id="container">
+                <Row className='containe'>
+                    {Work.map((item) => (
+                        <Cards id={item.id} name={item.name} para={item.para} codeT={item.codeT} code={item.code} demo={item.demo} demoT={item.demoT} />
+                    ))}
+                </Row>
+            </Container>
+        </>
     )
 
 }
@@ -29,14 +31,14 @@ function Cards(props) {
                 <h3>{props.name}</h3>
                 <p>{props.para}</p>
                 <>
-                {props.codeT?
-                <>
-                    <a href={props.code} target="_blank" rel="noopener noreferrer">Source Code</a><br />
-                </>:null
-                }
-                {props.demoT?
-                <a href={props.demo} target="_blank" rel="noopener noreferrer">Demo</a>:null
-                }
+                    {props.codeT ?
+                        <>
+                            <a href={props.code} target="_blank" rel="noopener noreferrer">Source Code</a><br />
+                        </> : null
+                    }
+                    {props.demoT ?
+                        <a href={props.demo} target="_blank" rel="noopener noreferrer">Demo</a> : null
+                    }
                 </>
             </div>
         </Col>

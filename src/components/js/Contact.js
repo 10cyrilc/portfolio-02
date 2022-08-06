@@ -29,55 +29,58 @@ function Contact() {
     }
 
     return (
-        <Container>
-            <Row className="menu">
-                {show ? <Col className="form-col" data-aos="fade-up">
-                    <Form ref={form} onSubmit={sendEmail}>
-                        <FloatingLabel
-                            controlId="floatingInput"
-                            label="Name:"
-                            className="mb-3"
-                        >
-                            <Form.Control placeholder="Name:" name="from_name" required />
-                        </FloatingLabel>
-                        <FloatingLabel
-                            controlId="floatingInput"
-                            label="Email:"
-                            className="mb-3"
-                        >
-                            <Form.Control type="email" placeholder="name@example.com:" name="from_email" required />
-                        </FloatingLabel>
-                        <FloatingLabel
-                            controlId="floatingInput"
-                            label="Subject:"
-                            className="mb-3"
-                        >
-                            <Form.Control placeholder="Subject:" name="subject" required />
-                        </FloatingLabel>
-                        <FloatingLabel
-                            controlId="floatingInput"
-                            label="Message:"
-                            className="mb-3"
-                        >
-                            <Form.Control as="textarea" label="Message" style={{ height: '150px' }} name="message" placeholder="Message:" required />
-                        </FloatingLabel>
-                        <div className='btn-sub'>
-                            <Button variant="outline-dark" type='send' value="Send">Send</Button>
-                        </div>
-                    </Form>
-                </Col>
-                    :
-                    <Col className="response">
-                        {text}
-                    </Col>}
-            </Row>
-            <Row className="social">
-                <Social link="https://www.linkedin.com/in/10cyrilc/" ico={<FaLinkedinIn />} />
-                <Social link="https://www.github.com/10cyrilc/" ico={<FaGithub />} />
-                <Social link="https://www.twitter.com/10cyrilc/" ico={<FaTwitter />} />
-                <Social link="https://t.me/10cyrilc/" ico={<FaTelegramPlane />} />
-            </Row>
-        </Container>
+        <>
+            <p className='heading'>Contact</p>
+            <Container>
+                <Row className="menu">
+                    {show ? <Col className="form-col" data-aos="fade-up">
+                        <Form ref={form} onSubmit={sendEmail}>
+                            <FloatingLabel
+                                controlId="floatingInput"
+                                label="Name:"
+                                className="mb-3"
+                            >
+                                <Form.Control placeholder="Name:" name="from_name" required />
+                            </FloatingLabel>
+                            <FloatingLabel
+                                controlId="floatingInput"
+                                label="Email:"
+                                className="mb-3"
+                            >
+                                <Form.Control type="email" placeholder="name@example.com:" name="from_email" required />
+                            </FloatingLabel>
+                            <FloatingLabel
+                                controlId="floatingInput"
+                                label="Subject:"
+                                className="mb-3"
+                            >
+                                <Form.Control placeholder="Subject:" name="subject" required />
+                            </FloatingLabel>
+                            <FloatingLabel
+                                controlId="floatingInput"
+                                label="Message:"
+                                className="mb-3"
+                            >
+                                <Form.Control as="textarea" label="Message" style={{ height: '150px' }} name="message" placeholder="Message:" required />
+                            </FloatingLabel>
+                            <div className='btn-sub'>
+                                <Button variant="outline-dark" type='send' value="Send">Send</Button>
+                            </div>
+                        </Form>
+                    </Col>
+                        :
+                        <Col className="response">
+                            {text}
+                        </Col>}
+                </Row>
+                <Row className="social">
+                    <Social link="https://www.linkedin.com/in/10cyrilc/" ico={<FaLinkedinIn />} />
+                    <Social link="https://www.github.com/10cyrilc/" ico={<FaGithub />} />
+                    <Social link="https://www.twitter.com/10cyrilc/" ico={<FaTwitter />} />
+                    <Social link="https://t.me/10cyrilc/" ico={<FaTelegramPlane />} />
+                </Row>
+            </Container>
+        </>
     )
 }
 

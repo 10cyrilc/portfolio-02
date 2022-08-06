@@ -34,7 +34,7 @@ function Nav() {
                         <Text link="/home" text="Home" handle={() => setShow(!show)} />
                         <Text link="/about" text="About" handle={() => setShow(!show)} />
                         <Text link="/education" text="Education" handle={() => setShow(!show)} />
-                        <Text link="/frameworks" text="Codes" handle={() => setShow(!show)} />
+                        <Text link="/frameworks" text="Frameworks" handle={() => setShow(!show)} />
                         <Text link="/projects" text="Projects & Services" handle={() => setShow(!show)} />
                         <Text link="/contact" text="Contact" handle={() => setShow(!show)} />
                     </ul>
