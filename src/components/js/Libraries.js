@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../styles/Framework.css";
-import { Frame } from "../data/Framework.js"
+import "../styles/Libraries.css";
+import { Frame } from "../data/Libraries.js"
 
 function Frameworks() {
     return (
         <>
-            <p className='heading'>Known Frameworks</p>
+            <p className='heading'>Most Libraries</p>
             <Container id="contani">
                 <Row className='contai'>
                     {Frame.map((item) => (

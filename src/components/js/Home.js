@@ -22,7 +22,7 @@ function Home() {
                 <Col lg className="text">
                     <Row className="data-name" data-aos="fade-left">
                         <h1 className="name">Cyril C Thomas</h1>
-                        <h2 className="dev">Pythonista | React Developer</h2>
+                        <h2 className="dev">Pythonista | Front-End Developer</h2>
                         <Row className="social">
                             <Social link="https://www.linkedin.com/in/10cyrilc/" ico={<FaLinkedinIn />} />
                             <Social link="https://www.github.com/10cyrilc/" ico={<FaGithub />} />

@@ -6,8 +6,8 @@ import FastAPIImg from "../images/fastapi.svg"
 export const Frame = [
     {
         "id":1,
-        "name": "PyMongo",
-        "para": "PyMongo is a Python distribution containing tools for working with MongoDB.",
+        "name": "Motor",
+        "para": "Motor presents a coroutine-based API for non-blocking access to MongoDB from Tornado or asyncio.",
         "imag": PyMongoImg
     },
     {

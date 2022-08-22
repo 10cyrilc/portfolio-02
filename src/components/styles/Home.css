@@ -11,7 +11,7 @@
 }
 
 .home {
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
 }
 
@@ -41,7 +41,6 @@
 
 .image img {
     border-radius: 10%;
-
     margin-right: 100px;
     z-index: 1;
 }
@@ -54,6 +53,7 @@
     font-size: 1.8em;
     color: #fa2538;
     transition: 500ms color;
+    width: 80%;
 }
 
 .social a:hover {
@@ -75,12 +75,13 @@
 
 
 @media(max-width: 1200px) {
-    .heading{
+    .heading {
         margin-left: 10%;
     }
 }
+
 @media(max-width: 986px) {
-    
+
     .black-rect {
         height: 96%;
     }
@@ -111,10 +112,12 @@
 
     .image img {
         margin-left: -10px;
-    }
-
-    .image img {
         box-shadow: none;
+        margin-top: 20%;
+    }
+    
+    .social{
+        width: 20%;
     }
 }
 

@@ -35,7 +35,7 @@ export const Work = [
         "framework": "React",
         "codeT": false,
         "code": "",
-        "para": "Website to ShowCase 360 and 3D Models of our College.",
+        "para": "Website to ShowCase 360 and 3D Models of our College. Under Construction",
         "demoT": true,
         "demo": "https://3d-mbc.tk"
     },

@@ -18,7 +18,7 @@ function Nav() {
                     <Icons link="/home" icon={<FaHome />} />
                     <Icons link="/about" icon={<FaUserAlt />} />
                     <Icons link="/education" icon={<FaGraduationCap />} />
-                    <Icons link="/frameworks" icon={<FaRegFileCode />} />
+                    <Icons link="/libraries" icon={<FaRegFileCode />} />
                     <Icons link="/projects" icon={<FaRegFolderOpen />} />
                     <Icons link="/contact" icon={<FaMailBulk />} />
                 </ul>
@@ -34,7 +34,7 @@ function Nav() {
                         <Text link="/home" text="Home" handle={() => setShow(!show)} />
                         <Text link="/about" text="About" handle={() => setShow(!show)} />
                         <Text link="/education" text="Education" handle={() => setShow(!show)} />
-                        <Text link="/frameworks" text="Frameworks" handle={() => setShow(!show)} />
+                        <Text link="/libraries" text="Libraries" handle={() => setShow(!show)} />
                         <Text link="/projects" text="Projects & Services" handle={() => setShow(!show)} />
                         <Text link="/contact" text="Contact" handle={() => setShow(!show)} />
                     </ul>

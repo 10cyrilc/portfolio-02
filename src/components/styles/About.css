@@ -22,14 +22,25 @@
     font-size: 2em;
     margin-bottom: -10px;
 }
-.about .main-about p{
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.1em;
-}
+
 .about .main-about h2,p{
     padding: 10px;
     text-align: center;
 
+}
+
+.ab-tot{
+    padding: 2%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.ab-i{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 @media(max-width: 500px){
