@@ -32,19 +32,19 @@
     text-align: center;
 }
 
-.social{
+.con-social{
     display: flex;
     justify-content: center;
     text-align: center;
     bottom: 5%;
 }
-.social a{
+.con-social a{
     font-size: 1.8em;
     color: #000;
     transition: 500ms color;
 }
 
-.social a:hover{
+.con-social a:hover{
     color: aqua;
 }
 

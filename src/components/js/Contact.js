@@ -73,7 +73,7 @@ function Contact() {
                             {text}
                         </Col>}
                 </Row>
-                <Row className="social">
+                <Row className="con-social">
                     <Social link="https://www.linkedin.com/in/10cyrilc/" ico={<FaLinkedinIn />} />
                     <Social link="https://www.github.com/10cyrilc/" ico={<FaGithub />} />
                     <Social link="https://www.twitter.com/10cyrilc/" ico={<FaTwitter />} />
