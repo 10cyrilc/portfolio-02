@@ -9,7 +9,7 @@ import { Frame } from "../data/Libraries.js"
 function Frameworks() {
     return (
         <>
-            <p className='heading'>Most Libraries</p>
+            <p className='heading'>Known Libraries and FrameWorks</p>
             <Container id="contani">
                 <Row className='contai'>
                     {Frame.map((item) => (

@@ -19,7 +19,7 @@ function Home() {
                     </Row>
                     <div className="black-rect"></div>
                 </Col>
-                <Col lg className="text">
+                <Col lg id="text-in">
                     <Row className="data-name" data-aos="fade-left">
                         <h1 className="name">Cyril C Thomas</h1>
                         <h2 className="dev">Pythonista | Front-End Developer</h2>

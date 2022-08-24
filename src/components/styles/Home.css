@@ -21,10 +21,11 @@
     padding-left: 5%;
 }
 
-.text {
+#text-in {
     display: flex;
     padding: 20% 0 0 0;
     margin-left: 5%;
+    width: 50%;
 }
 
 .name {
@@ -116,7 +117,7 @@
         margin-top: 20%;
     }
     
-    .social{
+    .social a{
         width: 20%;
     }
 }
@@ -129,4 +130,11 @@
     .name {
         margin-left: -10px;
     }
+}
+
+@media(max-width: 600px) {
+    #text-in {
+        padding: 0 !important;
+    }
+
 }

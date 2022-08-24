@@ -21,7 +21,17 @@
     height: 600px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 896px){
+    .main-body{
+        margin-top: -20%;
+    }
+}
+
+@media (max-width: 450px){
+    .main-body{
+        margin-top: -50%;
+    }
+
     .main-body img{
         width: 450px;
         height: 450px;
