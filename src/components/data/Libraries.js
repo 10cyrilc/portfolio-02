@@ -1,31 +1,59 @@
 import ReactImg from "../images/react.svg"
-import PyMongoImg from "../images/pymongo.svg"
+import Tkinter from "../images/tkinter.webp"
 import PyrogramImg from "../images/pyrogram.svg"
 import FastAPIImg from "../images/fastapi.svg"
+import Mongo from "../images/mongo.webp"
+import Axios from "../images/Axios.webp"
+import ReactNa from "../images/react-native.webp"
+import jWt from "../images/JWT.svg"
 
 export const Frame = [
     {
-        "id":1,
-        "name": "Motor",
-        "para": "Motor presents a coroutine-based API for non-blocking access to MongoDB from Tornado or asyncio.",
-        "imag": PyMongoImg
-    },
-    {
-        "id":2,
-        "name": "Pyrogram",
-        "para": "Pyrogram is a modern, elegant and asynchronous MTProto API framework which enables one to easily interact with the main Telegram API using Python.",
-        "imag": PyrogramImg
-    },
-    {
-        "id":2,
-        "name": "FastAPI",
-        "para": "FastAPI is a modern, fast, high-performance, web framework for building APIs with Python 3.6+ based on standard Python type hints.",
+        "id": 1,
+        "name": "FA",
+        "para": "FastAPI",
         "imag": FastAPIImg
     },
     {
-        "id":3,
-        "name": "React",
-        "para": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
+        "id": 2,
+        "name": "R",
+        "para": "REACT",
         "imag": ReactImg
+    },
+    {
+        "id": 2,
+        "name": "M",
+        "para": "MongoDB",
+        "imag": Mongo
+    },
+    {
+        "id": 3,
+        "name": "JWT",
+        "para": "JSON Web Tokens",
+        "imag": jWt
+    },
+    {
+        "id": 4,
+        "name": "Axios",
+        "para": "Axios (JavaScript)",
+        "imag": Axios
+    },
+    {
+        "id": 5,
+        "name": "Tk",
+        "para": "tkinter (Python)",
+        "imag": Tkinter
+    },
+    {
+        "id": 6,
+        "name": "Pyrogram",
+        "para": "Pyrogram (Python, Telegram)",
+        "imag": PyrogramImg
+    },
+    {
+        "id": 7,
+        "name": "React Native",
+        "para": "React Native (Javascript)",
+        "imag": ReactNa
     }
 ]

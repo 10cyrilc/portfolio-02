@@ -7,7 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MemoryRouter>
-      {/* <BrowserRouter></BrowserRouter> */}
+    {/* <BrowserRouter> */}
+    {/* </BrowserRouter> */}
       <App />
     </MemoryRouter>
   </React.StrictMode>

@@ -21,6 +21,7 @@ function About() {
                                 a Computer Science Engineering Student.<br />
                                 a Fast and Efficient Learner.<br />
                                 a Self Taught Python & Reactjs Developer.<br />
+                                currently following the FARM Stack<br />
                                 working on several OpenSource Projects.<br />
                                 Open to New Ideas and to Collaborate on Python and React Projects.<br />
                             </Col>

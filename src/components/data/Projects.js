@@ -1,52 +1,44 @@
+import RandJoke from '../images/random-joke.webp'
+import CardPrice from '../images/cardamom-price.webp'
+import TDMbc from '../images/3d-mbc.webp'
+import ShopCat from '../images/shop-catalogue.webp'
+import Thandava from '../images/thandava.webp'
+
+
 export const Work = [
     {
         "id": 1,
-        "name": "Maintenence Bot",
-        "framework": "pyrogram",
-        "codeT": true,
-        "code": "https://github.com/10cyrilc/Maintenance-BOT",
-        "para": "One of My Several Telegram Bots. It returns The User a Message if The Bot is Under Maintenence.",
-        "demoT": false,
-        "demo": ""
+        "name": "Random Joke Generator",
+        "framework": ["React"],
+        "para": "My First React Project to Return Some Random Jokes on Loading.",
+        "imag": RandJoke,
     },
     {
         "id": 2,
-        "name": "Random Joke Generator",
-        "framework": "React",
-        "codeT": true,
-        "code": "https://github.com/10cyrilc/Random-Joke-Generator",
-        "para": "My First React Project to Return Some Random Jokes on Loading.",
-        "demoT": true,
-        "demo": "https://random-joke-generator.vercel.app/"
+        "name": "Cardamom Price Tracker",
+        "framework": ["React"],
+        "para": "A WebApp to Return Cardamom Price of Last 4 days.",
+        "imag": CardPrice,
     },
     {
         "id": 3,
-        "name": "Cardamom Price Tracker",
-        "framework": "React",
-        "codeT": true,
-        "code": "https://github.com/10cyrilc/cardamom-price-tracker",
-        "para": "A WebApp to Return Cardamom Price of Last 4 days.",
-        "demoT": true,
-        "demo": "https://cardamom-price-tracker.vercel.app/"
+        "name": "3D MBC",
+        "framework": ["React"],
+        "para": "Website to ShowCase 360 and 3D Models of our College. Under Construction",
+        "imag": TDMbc,
     },
     {
         "id": 4,
-        "name": "3D MBC",
-        "framework": "React",
-        "codeT": false,
-        "code": "",
-        "para": "Website to ShowCase 360 and 3D Models of our College. Under Construction",
-        "demoT": true,
-        "demo": "https://3d-mbc.tk"
+        "name": "Shop Catalogue",
+        "framework": ["React"],
+        "para": "WebApp that can be Used to track Availablity of Products in a shop",
+        "imag": ShopCat,
     },
     {
         "id": 5,
-        "name": "Shop Catalogue",
-        "framework": "React",
-        "codeT": true,
-        "code": "",
-        "para": "WebApp that can be Used to track Availablity of Products in a shop",
-        "demoT": true,
-        "demo": "https://shop-catalogue.vercel.app"
+        "name": "Thandava",
+        "framework": ["React Native", ",", "FastAPI"],
+        "para": "Cross Platform Mobile App To Manage and Add thye Deatils of College Arts Fest",
+        "imag": Thandava,
     }
 ]

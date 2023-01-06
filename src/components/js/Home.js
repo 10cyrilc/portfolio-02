@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Developer from "../images/cyril1.jpg"
+import Developer from "../images/cyril1.webp"
 
 function Home() {
     return (
@@ -22,7 +22,7 @@ function Home() {
                 <Col lg id="text-in">
                     <Row className="data-name" data-aos="fade-left">
                         <h1 className="name">Cyril C Thomas</h1>
-                        <h2 className="dev">Pythonista | Front-End Developer</h2>
+                        <h2 className="dev">Pythonista | Full-Stack Developer</h2>
                         <Row className="social">
                             <Social link="https://www.linkedin.com/in/10cyrilc/" ico={<FaLinkedinIn />} />
                             <Social link="https://www.github.com/10cyrilc/" ico={<FaGithub />} />
