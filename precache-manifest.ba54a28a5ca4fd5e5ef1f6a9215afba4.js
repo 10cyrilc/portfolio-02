@@ -1,43 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "24969a9817084fdc4a76",
-    "url": "/static/css/main.4b641335.chunk.css"
+    "revision": "7886944b33ed805ee9df",
+    "url": "/static/css/main.f5be73e8.chunk.css"
   },
   {
-    "revision": "24969a9817084fdc4a76",
-    "url": "/static/js/main.24969a98.chunk.js"
+    "revision": "7886944b33ed805ee9df",
+    "url": "/static/js/main.7886944b.chunk.js"
   },
   {
-    "revision": "1667d421bb9ca60a2ba6",
+    "revision": "337839f0e9cb74ffe164",
     "url": "/static/css/1.19ad8b3b.chunk.css"
   },
   {
-    "revision": "1667d421bb9ca60a2ba6",
-    "url": "/static/js/1.1667d421.chunk.js"
+    "revision": "337839f0e9cb74ffe164",
+    "url": "/static/js/1.337839f0.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "8a284cfc614e376a387761418cfe71ed",
-    "url": "/static/media/logo.8a284cfc.png"
-  },
-  {
-    "revision": "709c9a56224bc805c03713777407eff5",
-    "url": "/static/media/cyril1.709c9a56.webp"
-  },
-  {
     "revision": "b8f0c21b14128367f6733fbc20c7d5b2",
     "url": "/static/media/react.b8f0c21b.svg"
   },
   {
-    "revision": "52032216199f24673d076d70b347ae01",
-    "url": "/static/media/tkinter.52032216.webp"
-  },
-  {
-    "revision": "dc4613234a87a74e984eab894741e09f",
-    "url": "/static/media/pyrogram.dc461323.svg"
+    "revision": "e361654e04c34e0f266bd61bdfdfd00f",
+    "url": "/static/media/Axios.e361654e.webp"
   },
   {
     "revision": "102c66c4f4781b5749c3013d650199f9",
@@ -48,16 +36,28 @@ self.__precacheManifest = [
     "url": "/static/media/mongo.105e378e.webp"
   },
   {
-    "revision": "e361654e04c34e0f266bd61bdfdfd00f",
-    "url": "/static/media/Axios.e361654e.webp"
-  },
-  {
     "revision": "8e90e03463c957f6c512923a1d21773b",
     "url": "/static/media/react-native.8e90e034.webp"
   },
   {
     "revision": "a6e39fb5526ceeb8351b3ddbd71dcee1",
     "url": "/static/media/JWT.a6e39fb5.svg"
+  },
+  {
+    "revision": "52032216199f24673d076d70b347ae01",
+    "url": "/static/media/tkinter.52032216.webp"
+  },
+  {
+    "revision": "dc4613234a87a74e984eab894741e09f",
+    "url": "/static/media/pyrogram.dc461323.svg"
+  },
+  {
+    "revision": "8a284cfc614e376a387761418cfe71ed",
+    "url": "/static/media/logo.8a284cfc.png"
+  },
+  {
+    "revision": "709c9a56224bc805c03713777407eff5",
+    "url": "/static/media/cyril1.709c9a56.webp"
   },
   {
     "revision": "06311bbe95a766fb9defcb5ea722ecb5",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/not-found.eb758653.svg"
   },
   {
-    "revision": "9185bb588aa4f5b4e72409b5fd899fba",
+    "revision": "29c09022e6a4ed5ea59d615afbf9fa10",
     "url": "/index.html"
   }
 ];
