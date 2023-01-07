@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
-.navigation{
+.navigation {
     height: 100vh;
     width: 5vw;
     display: flex;
     background: #000;
-    padding: 0 40px 0 0;;
+    padding: 0 40px 0 0;
+    ;
     align-items: center;
     position: fixed;
     z-index: 2;
     outline: 3px #08ff08 solid;
 }
 
-.navigation ul{
+.navigation ul {
     list-style: none;
     font-size: 1.7em;
 }
 
-.navigation ul li{
+.navigation ul li {
     color: #fff;
     margin: 0 0 20px -65px;
 }
 
-.mob-navigation{
+.mob-navigation {
     display: none;
 }
 
-.inactive{
+.inactive {
     opacity: 0;
 }
 
-.logo-img{
+.logo-img {
     display: flex;
     height: 100vh;
     justify-content: flex-start;
@@ -38,60 +39,62 @@
     margin: 35px 0 0 15px;
 }
 
-.logo-img img{
+.logo-img img {
     width: 50px;
 }
 
 
 @media (max-width: 1370px) {
-    .navigation{
+    .navigation {
         width: 6vw;
     }
 }
+
 @media (max-width: 1200px) {
-    .navigation{
+    .navigation {
         width: 8vw;
     }
 }
+
 @media (max-width: 900px) {
 
-    .navigation{
+    .navigation {
         display: none;
     }
 
-    .mob-navigation{
+    .mob-navigation {
         display: flex;
         z-index: 9;
         width: 95vw;
     }
 
-    .mob-navigation .black-text{
+    .mob-navigation .black-text {
         color: #000;
         font-family: 'Kanit', sans-serif;
         padding: 20px 0 0 20px;
         z-index: 3;
     }
 
-    .mob-navigation .white-text{
+    .mob-navigation .white-text {
         color: #fff;
         font-family: 'Kanit', sans-serif;
         padding: 20px 0 0 20px;
         z-index: 3;
     }
 
-    .mob-navigation button{
+    .mob-navigation button {
         position: absolute;
         left: 90%;
         top: 1%;
         padding: 20px;
         z-index: 12;
     }
-    
-    .mob-navigation .text{
+
+    .mob-navigation .text {
         display: flex;
         position: absolute;
         width: 100vw;
-        flex-direction: column;    
+        flex-direction: column;
         height: 110vh;
         list-style: none;
         background: #000;
@@ -102,23 +105,25 @@
         margin-top: -50px;
         z-index: 2;
     }
-    .mob-navigation .text a{
+
+    .mob-navigation .text a {
         color: #fff;
         text-decoration: none;
         font-weight: 600;
-        margin: 0 0 50px 20px;
+        margin: 0 0 50px -20px;
     }
-    
+
 }
 
 @media (max-width: 640px) {
-    .mob-navigation button{
-        left: 86%;
+    .mob-navigation button {
+        left: 80%;
     }
 
 }
+
 @media (max-width: 448px) {
-    .mob-navigation button{
+    .mob-navigation button {
         left: 82%;
     }
 

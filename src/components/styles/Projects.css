@@ -70,12 +70,11 @@
 
 #container .card1 .content2 {
     position: absolute;
-    height: 35px;
+    height: 40px;
     width: 100%;
     top: 420px;
     left: -1px;
-    background: #000;
-    color: #fff;
+    background: #333;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 

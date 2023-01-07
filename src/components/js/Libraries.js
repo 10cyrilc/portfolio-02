@@ -28,7 +28,7 @@ function Card(props) {
             <div className='card'>
                 <div className='face face1'>
                     <div className='content'>
-                        <img src={props.imag} alt="codes" />
+                        <img src={props.imag} alt={props.name} />
                         <h3>{props.name}</h3>
                     </div>
                 </div>

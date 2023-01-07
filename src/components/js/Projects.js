@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/Projects.css";
 import { Work } from "../data/Projects.js"
+import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 
 
 function Projects() {
@@ -37,7 +38,7 @@ function Cards(props) {
             <div className="content2">
                 <p>{props.frameworks.map((frameowrk) => {
                     return (
-                        frameowrk + "    "
+                        <img src={frameowrk} width="30px" alt={props.name} />
                     )
                 })}</p>
             </div>
