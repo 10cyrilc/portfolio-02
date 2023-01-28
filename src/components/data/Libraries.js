@@ -5,6 +5,7 @@ import FastAPIImg from "../images/fastapi.svg"
 import Mongo from "../images/mongo.webp"
 import Axios from "../images/Axios.webp"
 import ReactNa from "../images/react-native.webp"
+import ChakraUI from "../images/chakra-ui.webp"
 import jWt from "../images/JWT.svg"
 
 export const Frame = [
@@ -55,5 +56,10 @@ export const Frame = [
         "name": "React Native",
         "para": "React Native (Javascript)",
         "imag": ReactNa
+    }, {
+        "id": 7,
+        "name": "Chakra UI",
+        "para": "Chakra UI Framework",
+        "imag": ChakraUI
     }
 ]

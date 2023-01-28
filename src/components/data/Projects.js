@@ -3,11 +3,14 @@ import CardPrice from '../images/cardamom-price.webp'
 import TDMbc from '../images/3d-mbc.webp'
 import ShopCat from '../images/shop-catalogue.webp'
 import Thandava from '../images/thandava.webp'
+import REACT from '../images/react.webp'
+import News from '../images/news.webp'
 
 import ReactImg from "../images/react.svg"
-import Tkinter from "../images/tkinter.webp"
-import PyrogramImg from "../images/pyrogram.svg"
+// import Tkinter from "../images/tkinter.webp"
+// import PyrogramImg from "../images/pyrogram.svg"
 import FastAPIImg from "../images/fastapi.svg"
+import ChakraUI from "../images/chakra-ui.webp"
 import Mongo from "../images/mongo.webp"
 import Axios from "../images/Axios.webp"
 import ReactNa from "../images/react-native.webp"
@@ -49,5 +52,18 @@ export const Work = [
         "framework": [ReactNa, FastAPIImg, Mongo, jWt, Axios],
         "para": "Cross Platform Mobile App To Manage and Add the Deatils of College Arts Fest",
         "imag": Thandava,
-    }
+    }, {
+        "id": 6,
+        "name": "REACT Website",
+        "framework": [ReactImg],
+        "para": "Official Landing Page for Our College Association",
+        "imag": REACT,
+    }, {
+        "id": 7,
+        "name": "News",
+        "framework": [ReactImg, Axios, ChakraUI],
+        "para": "Powerful WebApp to fetch Tech News",
+        "imag": News,
+    },
+
 ]

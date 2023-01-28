@@ -13,8 +13,8 @@ function Projects() {
             <p className='heading'>Projects Done</p>
             <Container id="container">
                 <Row className='containe'>
-                    {Work.map((item) => (
-                        <Cards key={item.id} name={item.name} para={item.para} frameworks={item.framework} images={item.imag} />
+                    {Work.slice(0).reverse().map((item) => (
+                        <Cards keys={item.id} name={item.name} para={item.para} frameworks={item.framework} images={item.imag} />
                     ))}
                 </Row>
 
@@ -27,7 +27,7 @@ function Projects() {
 
 function Cards(props) {
     return (
-        <div className="card1">
+        <div className="card1" key={props.keys}>
             <div className="imgBx">
                 <img src={props.images} alt={props.name} />
             </div>
